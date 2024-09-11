@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int N,fact=1,count=1;
+    printf("Enter any number:");
+    scanf("%d",&N);
+    for(fact=1;count<=N;count++)
+    {
+        fact=fact*count;
+    }
+    printf("%d",fact);
+}
