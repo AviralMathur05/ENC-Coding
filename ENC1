@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,div;
+    printf("Enter a:");
+    scanf("%d",&a);
+    printf("Enter b:");
+    scanf("%d",&b);
+    if((a+b)%7==0)
+    {
+        printf("Divisible by 7\n");
+    }
+    else printf("Not div by 7\n");
+
+    div=((a+b)%5==0)?(printf("Div by 5")):(printf("Not div by 5"));
+}
